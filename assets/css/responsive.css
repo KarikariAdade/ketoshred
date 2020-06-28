@@ -1,0 +1,153 @@
+@media(min-width: 1024px){
+	.multisteps-form__progress{
+		visibility: visible;
+	}
+	.gender{
+  display: inline-flex;
+  padding-right: 5%;
+}
+.index-body .content .contact-icon{
+	display: block;
+}
+#or-span{
+  display: inline-flex;
+}
+.body-intro-text h2{
+	padding-top: 0%;
+  font-size: 50px;
+  margin-top: -10px;
+}
+.icon-image img:first-child{
+  position: fixed !important;
+  top: 50%;
+  left:-8%;
+  z-index: 1;
+}
+.icon-image img:last-child{
+  position: fixed;
+  right: -5%;
+  top: 13%;
+  z-index: 1;
+}
+#veggies-section .col-md-3 img{
+  display: block;
+}
+#veggies-section .col-md-3{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.nopad{
+  padding: 14px 10px;
+}
+.image-checkbox {
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 4px solid transparent;
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  outline: 0;
+  border-radius: 10px;
+  /*padding: 10px 15px;*/
+}
+.image-checkbox span {
+  position: absolute;
+  background-color: #e38612;
+  top: 9%;
+  border-radius: 5px;
+  display: none;
+  right: 9%;
+}
+.image-checkbox img{
+  border-radius: 5px;
+  max-width: 100% !important;
+}
+.image-checkbox-checked::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  background: rgba(227, 134, 18, .4);
+}
+.nav-pills{
+  margin-left: 10%;
+}
+.measurement-form{
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.nav-pills .nav-link{
+  width: 76%;
+  margin: 0;
+  text-align: center;
+  border: 1px solid #fff !important;
+}
+.nav-pills .nav-link-1{
+  width: 100%;
+  border-right: none !important;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.nav-pills .nav-link-2{
+  width: 100%;
+  margin-left: -24%;
+  border-left: none !important;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.nav-pills .nav-item{
+  padding:10px 5px;
+  /*width: 100%;*/
+}
+.rs-control{
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.result-summary-content .chart-detail-div {
+  width: 400px; 
+  height: 200px;
+  margin-left: auto;
+}
+.result-summary-content .chart-detail{
+  margin-top: 5%;
+}
+.not-found-section{
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+  text-align: center;
+  padding: 5% 10px;
+}
+.not-found-section #unsubscribe{
+  font-size: 8em;
+}
+.not-found-section .not-found-section-icon{
+  font-size: 25em;
+  left: 35%;
+  position: absolute;
+  opacity: .3;
+  color: #ccc;
+  z-index: 0;
+}
+.not-found-section .not-found-section-text{
+  position: relative;
+  z-index: 1;
+}
+.not-found-section .not-found-section-text h1{
+  font-size: 10em;
+  padding-top: 5%;
+  opacity: .8;
+}
+.not-found-section .not-found-section-text h4 a{
+  text-decoration: none;
+  color: #e38612;
+}
+}
